@@ -1,0 +1,48 @@
+# system
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.DS_Store
+
+# WSL i Linux
+*.swp
+*.swo
+
+# wirtualne środowiska
+venv/
+.venv/
+
+# dane i modele
+*.csv
+*.tsv
+*.gz
+*.zip
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.onnx
+notebooks/**/raw/
+data/
+datasets/
+checkpoints/
+runs/
+
+# notebooki i Jupyter
+.ipynb_checkpoints/
+*.ipynb~  # tymczasowe pliki
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# logi i debug
+*.log
+logs/
