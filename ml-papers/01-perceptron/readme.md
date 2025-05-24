@@ -138,4 +138,19 @@ notebook.ipynb  # visualization + debug
 README.md       # notes from this template
 ```
 
+## Flowchart
+
+```mermaid
+flowchart TD
+    A(["Perceptron for boolean algebra AND"]) --> B["Input x1,x2...xn"]
+    B --> C["Weights w1...wn + Bias b"]
+    C --> D["Weighted sum: z = w·x + b"]
+    D --> E{"Activation Function: f(z) = 1 if z > 0 else 0"}
+    E --> F["if z > 0 and error == 0 → continue"] & G["if z &lt;= 0 and error != 0"]
+    G --> H["Update weights and bias"]
+    F --> I["END_LOOP"]
+    H --> I
+    I --> J["OUTPUT"]
+
+```
 ---

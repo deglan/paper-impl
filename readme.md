@@ -27,3 +27,6 @@ Each folder contains:
 - `data.py` or `notebook.ipynb` – dataset and tests  
 - Additional files for training, visualizing, or experimenting
 
+## 01 perceptron implementation in pure Python
+## 02 backpropagation implementation in pure Python
+## 03 LeNet-5 implementation in pure Python
